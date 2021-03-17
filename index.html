@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SSR Enterprises</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="icon" href="images/favicon.ico">
 
     <!--Google Fonts  -->
@@ -26,6 +27,34 @@
   <body>
     <div class="mainDiv">
 
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand" href=""><img class="title-logo" src="images/logo.jpg" alt="logo"></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Project">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT US</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
       <div>
 
           <img class="firstImage" src="images/p.jpg" alt="Name">
@@ -38,22 +67,58 @@
       </div>
       <div>
 
-          <img class="firstImage" src="images/f.jpg" alt="Name">
+          <img id="Services" class="firstImage" src="images/f.jpg" alt="Name">
 
       </div>
+
       <div>
 
-          <img class="firstImage" src="images/e.jpg" alt="Name">
-
-      </div>
-      <div>
-
-          <img class="firstImage" src="images/c.jpg" alt="Name">
-          
+          <img id="Project" class="firstImage" src="images/e.jpg" alt="Name">
 
       </div>
 
+      <section id="contact" class="contact">
+        <div class="content">
+          <h2>Contact Us</h2>
+        </div>
+        <div class="container">
+          <div class="contactInfo">
+            <div class="row">
+              <div class="col-lg-4 single-footer">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                  <div class="text">
+                    <h3>Adress</h3>
+                    <p>Shop no.3,Laxmi niwas,<br>Near Police station,Anand koli Wada,<br>Mumbra-400612</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 single-footer">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                  <div class="text">
+                    <h3>Phone</h3>
+                    <p><a href="tel:9892015571">9892015571</a></p>
+                    <p><a href="tel:8655274171">8655274171</a></p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 single-footer">
+                <div class="box">
+                  <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                  <div class="text">
+                    <h3>Email</h3>
+                    <a href="mailto:ssrenterprises91@gmail.com">ssrenterprises91@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
 
     </div>
   </body>
 </html>
+
